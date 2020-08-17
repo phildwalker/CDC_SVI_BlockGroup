@@ -39,6 +39,8 @@ knitr::knit_hooks$set(inline = clean_numbers,
 
 Look up table for ACS codes
 
+Codes found using: https://api.census.gov/data.html
+
 ```{r}
 
 ACS_codes <- tibble::tribble(
